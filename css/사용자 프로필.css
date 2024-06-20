@@ -82,8 +82,8 @@ main{ /* 메인 */
 }
 
 .category-tableP{
-    margin: 30px 0 0 10px;
     border-spacing: 0px;
+    margin-top: 15px;
 }
 
 .categoryP{
@@ -97,6 +97,7 @@ main{ /* 메인 */
 
 .categoryP>td{
     font-size: 20px;
+    width: 300px;
 }
 
 #class3{font-size: 22px;}
@@ -121,5 +122,48 @@ main{ /* 메인 */
 .containerH{ /* 메인 내용 */
     width: 980px;
     height: 1000px;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
 }
+
+#main1{
+    height: 140px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    font-size: 18pt;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+#main2{
+    height: 80px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    font-size: 11pt;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}#main3{
+    height: 140px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    font-size: 11pt;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}#main4{
+    height: 80px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    font-size: 11pt;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}#main5{
+    height: 150px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    font-size: 11pt;
+}
+
+
