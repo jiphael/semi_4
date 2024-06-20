@@ -3,12 +3,16 @@
     box-sizing: border-box;
 }
 
+#content{
+    content
+
+}
 
 #credit{
-    margin:0 auto;
     width:1280px;
     display: flex;
     justify-content: center;
+    margin:0 auto;
     background-color: aqua;
 
 }
@@ -19,8 +23,30 @@
     flex-basis: 32%;
     background-color: #ddd;
     height: 50px;
-    padding-left:20px;
+ 
 }
+
+
+#credit>section:nth-of-type(1) img{
+   
+    width:300px;
+}
+
+
+#credit>section:nth-of-type(1)>aside:nth-child(1){
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+
+#credit>section:nth-of-type(1) p{
+    display: inline;
+    font-weight: bold;
+}
+
 
 #credit>section:nth-of-type(2){
     flex-basis: 32%;
@@ -36,3 +62,6 @@
 
 }
 
+fotter{
+    
+}
