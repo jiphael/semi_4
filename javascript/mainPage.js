@@ -1,7 +1,6 @@
 $(document).ready(function () {
   $(".slideContentWrapper").each(function () {
     let $wrapper = $(this);
-    console.log($wrapper);
     let $contentSlider = $wrapper.find(".contentBoxs");
     let $leftButton = $wrapper.find("#leftButton");
     let $rightButton = $wrapper.find("#rightButton");
@@ -21,8 +20,7 @@ $(document).ready(function () {
     });
 
     $rightButton.on("click", function () {
-      let maxIndex = Math.ceil($contentSlider[0].scrollWidth / slideWidth) - 1;
-      console.log(maxIndex);
+      let maxIndex = Math.ceil($contentSlider[0].scrollWidth / slideWidth) - 2;
       if (currentIndex < maxIndex) {
         currentIndex++;
         slide();

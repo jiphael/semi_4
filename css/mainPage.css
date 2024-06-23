@@ -12,7 +12,7 @@ body {
 
 /* 헤더 */
 header {
-  background-color: aqua;
+  width: 100%;
   height: 100px;
   position: relative;
 }
@@ -22,21 +22,53 @@ header > div {
   margin: auto;
 }
 
+/* 헤더 위쪽 */
 .topHeader {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topHeader > div {
+  display: flex;
+  align-items: center;
+}
+
+.topHeader > div > * {
+  margin: auto 10px;
+  height: 100%;
+}
+
+#searchBar {
+  height: 100%;
+  width: 300px;
+}
+
+/* 헤더 아래 */
+.bottomHeader {
   height: 50px;
   display: flex;
 }
 
-.bottomHeader {
-  height: 50px;
+.bottomHeader > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
 }
 
+.fa-bars {
+  font-size: 42px;
+
+}
+
+/* 헤더 카테고리 바 */
 .categoryBar {
   position: relative;
   height: 150px;
   background-color: pink;
   z-index: 2;
-  /* display: none; */
+  display: none;
 }
 
 /* 콘텐츠 목록 헤더 */
