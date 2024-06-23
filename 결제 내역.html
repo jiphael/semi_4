@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>사용자 프로필</title>
-    <link rel="stylesheet" href="css/사용자 프로필.css">
+    <title>결제 내역</title>
+    <link rel="stylesheet" href="css/결제 내역.css">
     <script src="https://kit.fontawesome.com/71eaa9d255.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -13,7 +13,7 @@
         <section class="sideP"> <!-- 카테고리 사이드바 -->
             <article class="profileP"> <!-- 프로필 사진 / 이름 -->
                 <div class="profile-areaP"> <!-- 프로필 사진 -->
-                    <img src="img/img1.jpg" id="profile-img">
+                    <img src="img/profile-default.jpg" id="profile-img">
                 </div>
                 <div class="nameP"> <!-- 이름 -->
                     <span id="idP">OOO</span>
@@ -46,14 +46,19 @@
             </article>
         </section>
         <div class="containerH"> <!-- 메인 내용 -->
-            <div id="main1">내 프로필</div>
-            <div id="main2">
-                <div id="main-2-1">닉네임(별명)</div>
-                <div id="main-2-2">홍길동</div>
+            <div id="payment-main-1">
+                <div>결제 내역</div>
             </div>
-            <div id="main3">프로필 이미지</div>
-            <div id="main4">이메일(로그인ID)</div>
-            <div id="main5">전화번호</div>
+            <div id="payment-main-2">
+                <div id="payment-main-2-1" class="payment-main-2-1">VOD</div>
+                <div id="payment-main-2-1">온.오프라인</div>
+                <div id="payment-main-2-1">전자책</div>
+            </div>
+            <div id="payment-main-3">
+                <div id="payment-main-3-1">
+                    <p>${user.payment} default : '결제 내역이 없어요'</p>
+                </div>
+            </div>
         </div>
     </main>
     <footer>footer</footer>

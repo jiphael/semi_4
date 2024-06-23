@@ -1,5 +1,5 @@
 *{box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 body{
@@ -128,7 +128,7 @@ main{ /* 메인 */
     align-items: center;
 }
 
-#main1{
+#main-1{
     height: 140px;
     width: 80%;
     display: flex;
@@ -137,33 +137,94 @@ main{ /* 메인 */
     font-weight: 700;
     border-bottom: 1px solid rgb(230, 230, 230);
 }
-#main2{
+#main-2{
     height: 80px;
     width: 80%;
     display: flex;
     align-items: center;
     font-size: 11pt;
     border-bottom: 1px solid rgb(230, 230, 230);
-}#main3{
+
+}
+
+#main-2-2{
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+}
+
+#main-2-2-write{
+    background-color: white;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(200, 200, 200);
+}
+
+#main-3{
     height: 140px;
     width: 80%;
     display: flex;
     align-items: center;
     font-size: 11pt;
     border-bottom: 1px solid rgb(230, 230, 230);
-}#main4{
+}
+
+#main-3-2{
+    margin-left: 196px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#main-3-2-btn-1{
+    font-size: 15pt;
+    position: absolute;
+    color:white;
+    background-color: red;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -10px;
+    bottom: -10px;
+    border: none;
+}
+#main-3-2-btn-1:hover{
+    cursor: pointer;
+}
+
+#main-3-2-btn-2{
+    display: none;
+}
+
+#main-4{
     height: 80px;
     width: 80%;
     display: flex;
     align-items: center;
     font-size: 11pt;
     border-bottom: 1px solid rgb(230, 230, 230);
-}#main5{
+}
+
+#main-4-2{
+    margin-left: 172px;
+}
+#main-5{
     height: 150px;
     width: 80%;
     display: flex;
     align-items: center;
     font-size: 11pt;
+}
+
+#main-5-2{
+    margin-left: 224px;
+
 }
 
 
