@@ -7,9 +7,29 @@
     background-color: aqua;
 }
 
-#detailed>section:nth-last-of-type(1) img{
-    width:1000px;
+#detailed>section:nth-child(1)>img{
+    width:850px;
 }
+
+.creditBtnSub{
+    width:350px;
+    padding:15px;
+    cursor: pointer;
+    background-color: #ff1058;
+    border:0;
+    margin-top: 20px;
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.creditBtnSub:hover{
+    background-color:#ff1058; opacity : 0.8;
+}
+
+
 #detailed>section{
 
     background-color: #f0f0f0;
