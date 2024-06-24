@@ -1,0 +1,19 @@
+#detailed{
+    width:1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 70% 30%;  
+    height: 100px;
+    background-color: aqua;
+}
+
+#detailed>section:nth-last-of-type(1) img{
+    width:1000px;
+}
+#detailed>section{
+
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+
+}
