@@ -7,8 +7,28 @@
     background-color: aqua;
 }
 
-#detailed>section:nth-child(1)>img{
+#detailed>section:nth-child(1)>div>img{
     width:850px;
+}
+
+.detailedNav>ul{
+    list-style: none;
+    display: flex;
+
+}
+
+.detailedNav>ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+
+}
+
+.detailedNav>ul li{
+   padding:50px;
+
+
+    
 }
 
 .creditBtnSub{
