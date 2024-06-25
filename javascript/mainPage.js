@@ -6,7 +6,8 @@ $(document).ready(function () {
     let $leftButton = $wrapper.find("#leftButton");
     let $rightButton = $wrapper.find("#rightButton");
     let currentIndex = 0;
-    let slideWidth = $wrapper.width();
+    // let slideWidth = $wrapper.width();
+    let slideWidth = 1280;
 
     function slide() {
       let translateValue = -slideWidth * currentIndex + "px";
@@ -48,7 +49,8 @@ $(function(){
     const slideCount = $slides.length;
     let currentIndex = 0;
     const slideWidth = 1280;
-    
+    // const slideWidth = $(".infinitySlider").width();
+    console.log(slideWidth);
     setInterval(showNextSlide, 2000);
 
     function showNextSlide() {
