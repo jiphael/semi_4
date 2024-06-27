@@ -5,8 +5,111 @@
 }
 
 div {
-    border: 1px solid black;
+  border: 1px solid black;
 }
+
+/* chosenCategory */
+.headCategoryBar {
+  position: sticky;
+  top: 120px;
+  z-index: 1;
+}
+
+.headCategoryBar > div {
+  height: 50px;
+  display: flex;
+  background-color: white;
+}
+
+.headCategoryBar > div > div {
+    margin: 5px 10px;
+    padding: 0 20px;
+}
+
+#chosenCategoryButton {
+  cursor: pointer;
+}
+
+#scorollChosenCatergoryMenu {
+  height: 300px;
+  margin: 10px;
+  overflow-y: scroll;
+}
+
+#scorollChosenCatergoryMenu li {
+  font-size: 14px;
+}
+
+#scorollChosenCatergoryMenu::-webkit-scrollbar {
+  display: none;
+}
+
+#scrollChosenCategoryMenu li .selected {
+  background-color: rgba(244, 244, 244);
+  color: white;
+}
+
+#chosenCategoryMenu {
+  display: none;
+  height: 500px;
+  background-color: white;
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+#chosenCategoryMenu > div:first-child {
+  border-bottom: 1px solid black;
+  padding: 20px 0 20px 10px;
+}
+
+#scorollChosenCatergoryMenuBox {
+  display: flex;
+  flex-direction: row;
+}
+
+#chosenCategoryMenu ul{
+  list-style: none;
+  font-size: 18px;
+  display: block;
+}
+
+#scorollChosenCatergoryMenu li{
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.category li{
+  margin: 5px 0;
+  padding: 5px 0;
+}
+
+#chosenCategoryMenu div {
+  padding: 0;
+}
+
+.category {
+  display: flex;
+}
+
+.category label {
+  font-size: 14px;
+}
+
+#chosenCategoryDetail {
+  height: 300px;
+  margin: 10px;
+}
+
+#chosenCategoryDetail ul {
+  margin: 0 10px;
+}
+
+/* chosenCategoryName */
 
 /* 콘텐츠 목록 헤더 */
 .contentHeader {
@@ -62,11 +165,17 @@ div {
     width: 250px;
     margin: 10px 5px;
     border: 0;
+    transition: 0.2s;
   }
+  
   
   .contentBox img {
     width: 100%;
     border-radius: 10px;
+  }
+
+  .contentBox:hover {
+    transform: scale(1.05);
   }
   
   /* 콘텐츠 목록리스트 좌우 버튼 */

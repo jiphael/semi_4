@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-div {
-  /* border: 1px solid black; */
-}
-
 body {
   width: 100%;
 }
@@ -82,6 +78,11 @@ body {
   width: 250px;
   margin: 10px 5px;
   border: 0;
+  transition: 0.2s;
+}
+
+.contentBox:hover {
+  transform: scale(1.05);
 }
 
 .contentBox img {
@@ -129,7 +130,6 @@ body {
   margin: auto;
   padding: 40px;
   justify-content: space-around;
-  background-color: rgb(244, 244, 244);
 }
 .barContentLeft {
   flex-basis: 25%;
@@ -192,6 +192,12 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.barContentMore > div:hover {
+  background-color: rgb(240, 240, 240);
 }
 
 .barContentLeftTitle {
